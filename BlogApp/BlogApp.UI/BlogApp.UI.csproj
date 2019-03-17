@@ -20,4 +20,8 @@
     <Folder Include="Areas\Admin\Views\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlogApp.Model\BlogApp.Model.csproj" />
+  </ItemGroup>
+
 </Project>
