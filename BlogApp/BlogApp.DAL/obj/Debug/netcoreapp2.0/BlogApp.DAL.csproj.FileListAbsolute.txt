@@ -1,0 +1,7 @@
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\bin\Debug\netcoreapp2.0\BlogApp.DAL.deps.json
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\bin\Debug\netcoreapp2.0\BlogApp.DAL.dll
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\obj\Debug\netcoreapp2.0\BlogApp.DAL.csprojAssemblyReference.cache
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\obj\Debug\netcoreapp2.0\BlogApp.DAL.csproj.CoreCompileInputs.cache
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\obj\Debug\netcoreapp2.0\BlogApp.DAL.AssemblyInfoInputs.cache
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\obj\Debug\netcoreapp2.0\BlogApp.DAL.AssemblyInfo.cs
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\bin\Debug\netcoreapp2.0\BlogApp.Model.dll
