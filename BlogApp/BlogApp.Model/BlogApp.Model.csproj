@@ -8,4 +8,8 @@
     <Folder Include="ViewModel\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlogApp.Core\BlogApp.Core.csproj" />
+  </ItemGroup>
+
 </Project>
