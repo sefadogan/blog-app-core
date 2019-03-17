@@ -1,11 +1,12 @@
-﻿using System;
+﻿using BlogApp.Core.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace BlogApp.Model.DataModel
 {
-    public class Post : BaseModel
+    public class Post : BaseModel, IEntity
     {
         public int PostId { get; set; }
         public string Title { get; set; }

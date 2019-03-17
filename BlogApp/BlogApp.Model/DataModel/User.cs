@@ -1,11 +1,12 @@
-﻿using System;
+﻿using BlogApp.Core.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace BlogApp.Model.DataModel
 {
-    public class User : BaseModel
+    public class User : BaseModel, IEntity
     {
         public int UserId { get; set; }
         public string FirstName { get; set; }

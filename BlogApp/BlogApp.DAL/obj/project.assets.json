@@ -911,9 +911,22 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "BlogApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BlogApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogApp.Core.dll": {}
+        }
+      },
       "BlogApp.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "BlogApp.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BlogApp.Model.dll": {}
         },
@@ -3453,6 +3466,11 @@
         "system.threading.tasks.4.0.11.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "BlogApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../BlogApp.Core/BlogApp.Core.csproj",
+      "msbuildProject": "../BlogApp.Core/BlogApp.Core.csproj"
     },
     "BlogApp.Model/1.0.0": {
       "type": "project",
