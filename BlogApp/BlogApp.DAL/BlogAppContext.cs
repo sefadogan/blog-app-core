@@ -8,6 +8,10 @@ namespace BlogApp.DAL
 {
     public class BlogAppContext : DbContext
     {
+        public BlogAppContext(DbContextOptions<BlogAppContext> options) : base(options)
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=.; Database=BlogAppDotNetCore; Trusted_Connection=True;",

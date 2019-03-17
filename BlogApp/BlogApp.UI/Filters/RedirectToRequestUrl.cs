@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BlogApp.UI.Filters
 {
-    public class RedirectToRequestUrl
+    public class RedirectToRequestUrl : IActionFilter
     {
         IHttpContextAccessor _accessor;
 

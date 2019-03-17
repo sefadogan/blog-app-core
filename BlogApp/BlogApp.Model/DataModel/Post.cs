@@ -17,10 +17,10 @@ namespace BlogApp.Model.DataModel
 
         #region Navigation Properties
 
-        [ForeignKey("UserId")]
+        //[ForeignKey("UserId")]
         public virtual User User { get; set; }
 
-        [ForeignKey("CategoryId")]
+        //[ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }
 
         #endregion

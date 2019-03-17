@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BlogApp.UI.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class AccountController : Controller
     {
         IUnitOfWork _uow;
@@ -41,7 +42,7 @@ namespace BlogApp.UI.Areas.Admin.Controllers
             }
 
             _accessor.HttpContext.Session.SetObject("loggedUser", user);
-            return RedirectToAction("List","User"); // Bu action çalıştıktan sonra zaten request url'e göre yönlendirme olacağı için buranın bir önemi yok.
+            return RedirectToAction("List","User"); 
         }
     }
 }
