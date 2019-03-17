@@ -7,3 +7,5 @@ D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.Core\obj\Debug\netcoreapp2.0\Bl
 D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.Core\obj\Debug\netcoreapp2.0\BlogApp.Core.AssemblyInfo.cs
 D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.Core\obj\Debug\netcoreapp2.0\BlogApp.Core.dll
 D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.Core\obj\Debug\netcoreapp2.0\BlogApp.Core.pdb
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.Core\bin\Debug\netcoreapp2.0\BlogApp.Core.runtimeconfig.json
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.Core\bin\Debug\netcoreapp2.0\BlogApp.Core.runtimeconfig.dev.json

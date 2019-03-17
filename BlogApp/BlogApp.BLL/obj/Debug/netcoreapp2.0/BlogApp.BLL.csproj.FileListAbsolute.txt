@@ -14,3 +14,5 @@ D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\obj\Debug\netcoreapp2.0\Blo
 D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\obj\Debug\netcoreapp2.0\BlogApp.BLL.csproj.CopyComplete
 D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\obj\Debug\netcoreapp2.0\BlogApp.BLL.dll
 D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\obj\Debug\netcoreapp2.0\BlogApp.BLL.pdb
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\bin\Debug\netcoreapp2.0\BlogApp.BLL.runtimeconfig.json
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\bin\Debug\netcoreapp2.0\BlogApp.BLL.runtimeconfig.dev.json

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "a9f097f5dd46889058a7f3b2e340daedc0e22d43"
+    "signature": "b2e988b911bab1d4ee714cc93915a197f30402ab"
   },
   "compilationOptions": {
     "defines": [
@@ -27,6 +27,7 @@
           "BlogApp.BLL": "1.0.0",
           "BlogApp.Model": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.9",
+          "Microsoft.EntityFrameworkCore.Tools": "2.2.3",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3"
         },
@@ -257,13 +258,13 @@
           "Microsoft.Data.Sqlite": "2.0.1",
           "Microsoft.Data.Sqlite.Core": "2.0.1",
           "Microsoft.EntityFrameworkCore": "2.2.3",
-          "Microsoft.EntityFrameworkCore.Design": "2.0.3",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.3",
           "Microsoft.EntityFrameworkCore.InMemory": "2.0.3",
           "Microsoft.EntityFrameworkCore.Relational": "2.2.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.3",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.0.3",
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.0.3",
-          "Microsoft.EntityFrameworkCore.Tools": "2.0.3",
+          "Microsoft.EntityFrameworkCore.Tools": "2.2.3",
           "Microsoft.Extensions.Caching.Abstractions": "2.2.0",
           "Microsoft.Extensions.Caching.Memory": "2.2.0",
           "Microsoft.Extensions.Caching.Redis": "2.0.2",
@@ -932,7 +933,7 @@
       },
       "Microsoft.AspNetCore.JsonPatch/2.0.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.4.0",
+          "Microsoft.CSharp": "4.5.0",
           "Newtonsoft.Json": "10.0.1"
         },
         "runtime": {
@@ -1771,7 +1772,7 @@
           "lib/netstandard1.3/Microsoft.CodeAnalysis.Workspaces.dll": {}
         }
       },
-      "Microsoft.CSharp/4.4.0": {},
+      "Microsoft.CSharp/4.5.0": {},
       "Microsoft.Data.Edm/5.8.2": {
         "runtime": {
           "lib/netstandard1.1/Microsoft.Data.Edm.dll": {
@@ -1932,14 +1933,15 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/2.2.3": {},
-      "Microsoft.EntityFrameworkCore.Design/2.0.3": {
+      "Microsoft.EntityFrameworkCore.Design/2.2.3": {
         "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
           "Microsoft.EntityFrameworkCore.Relational": "2.2.3"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "2.0.3.0",
-            "fileVersion": "2.0.3.18114"
+            "assemblyVersion": "2.2.3.0",
+            "fileVersion": "2.2.3.19047"
           }
         },
         "compile": {
@@ -2010,9 +2012,9 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/2.0.3": {
+      "Microsoft.EntityFrameworkCore.Tools/2.2.3": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "2.0.3"
+          "Microsoft.EntityFrameworkCore.Design": "2.2.3"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/2.2.0": {
@@ -2967,7 +2969,7 @@
       },
       "Newtonsoft.Json/10.0.1": {
         "dependencies": {
-          "Microsoft.CSharp": "4.4.0",
+          "Microsoft.CSharp": "4.5.0",
           "System.Collections": "4.3.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
@@ -4710,7 +4712,8 @@
         "dependencies": {
           "BlogApp.Core": "1.0.0",
           "BlogApp.DAL": "1.0.0",
-          "BlogApp.Model": "1.0.0"
+          "BlogApp.Model": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.2.3"
         },
         "runtime": {
           "BlogApp.BLL.dll": {}
@@ -4720,6 +4723,9 @@
         }
       },
       "BlogApp.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Tools": "2.2.3"
+        },
         "runtime": {
           "BlogApp.Core.dll": {}
         },
@@ -4731,7 +4737,8 @@
         "dependencies": {
           "BlogApp.Model": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.2.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.3"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.3",
+          "Microsoft.EntityFrameworkCore.Tools": "2.2.3"
         },
         "runtime": {
           "BlogApp.DAL.dll": {}
@@ -4742,7 +4749,8 @@
       },
       "BlogApp.Model/1.0.0": {
         "dependencies": {
-          "BlogApp.Core": "1.0.0"
+          "BlogApp.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.2.3"
         },
         "runtime": {
           "BlogApp.Model.dll": {}
@@ -5598,12 +5606,12 @@
       "path": "microsoft.codeanalysis.workspaces.common/2.3.1",
       "hashPath": "microsoft.codeanalysis.workspaces.common.2.3.1.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.4.0": {
+    "Microsoft.CSharp/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
-      "path": "microsoft.csharp/4.4.0",
-      "hashPath": "microsoft.csharp.4.4.0.nupkg.sha512"
+      "sha512": "sha512-EGoBmf3Na2ppbhPePDE9PlX81r1HuOZH5twBrq7couJZiPTjUnD3648balerQJO6EJ8Sj+43+XuRwQ7r+3tE3w==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
     },
     "Microsoft.Data.Edm/5.8.2": {
       "type": "package",
@@ -5661,12 +5669,12 @@
       "path": "microsoft.entityframeworkcore.analyzers/2.2.3",
       "hashPath": "microsoft.entityframeworkcore.analyzers.2.2.3.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Design/2.0.3": {
+    "Microsoft.EntityFrameworkCore.Design/2.2.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hWmbmZg0BhXD3/zuR/w3tCfLyPHpQ52GRPKt80vSmnFOnqaa+/Di7v0zOfPQMmn9gXiZ0hAtx5ywvwRNCTCzBg==",
-      "path": "microsoft.entityframeworkcore.design/2.0.3",
-      "hashPath": "microsoft.entityframeworkcore.design.2.0.3.nupkg.sha512"
+      "sha512": "sha512-ieO8DTCxp5fe39pv0C8UljOqRVyeYgNNB52vkwYyTIZdPnjEVbTot4GsubHy3JspmvG09uYgU64Ll9/LYDjkiA==",
+      "path": "microsoft.entityframeworkcore.design/2.2.3",
+      "hashPath": "microsoft.entityframeworkcore.design.2.2.3.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.InMemory/2.0.3": {
       "type": "package",
@@ -5703,12 +5711,12 @@
       "path": "microsoft.entityframeworkcore.sqlserver/2.2.3",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.2.2.3.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Tools/2.0.3": {
+    "Microsoft.EntityFrameworkCore.Tools/2.2.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KOkhbzPTFJa/NEduIdT8o1vOKUZAVvcfyR5rFIKUvFGSSEU2tkmEkJ0ZFxZzpbltD7cj03DlvMlB83RTyYraPg==",
-      "path": "microsoft.entityframeworkcore.tools/2.0.3",
-      "hashPath": "microsoft.entityframeworkcore.tools.2.0.3.nupkg.sha512"
+      "sha512": "sha512-p0MeXtESRNYKhQXWSnODoI3aQQYgZT5XVo1KDuXOsAyPtAbe0QGwXm4efGE4F1FqfaRU8wGsHRsk3V0E9zQFPw==",
+      "path": "microsoft.entityframeworkcore.tools/2.2.3",
+      "hashPath": "microsoft.entityframeworkcore.tools.2.2.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/2.2.0": {
       "type": "package",
