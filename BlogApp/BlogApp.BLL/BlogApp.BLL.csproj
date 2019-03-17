@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlogApp.Core\BlogApp.Core.csproj" />
+    <ProjectReference Include="..\BlogApp.DAL\BlogApp.DAL.csproj" />
+    <ProjectReference Include="..\BlogApp.Model\BlogApp.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
