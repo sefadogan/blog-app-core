@@ -5,3 +5,10 @@ D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\obj\Debug\netcoreapp2.0\Blo
 D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\obj\Debug\netcoreapp2.0\BlogApp.DAL.AssemblyInfoInputs.cache
 D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\obj\Debug\netcoreapp2.0\BlogApp.DAL.AssemblyInfo.cs
 D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\bin\Debug\netcoreapp2.0\BlogApp.Model.dll
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\bin\Debug\netcoreapp2.0\BlogApp.DAL.pdb
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\bin\Debug\netcoreapp2.0\BlogApp.Core.dll
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\bin\Debug\netcoreapp2.0\BlogApp.Model.pdb
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\bin\Debug\netcoreapp2.0\BlogApp.Core.pdb
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\obj\Debug\netcoreapp2.0\BlogApp.DAL.csproj.CopyComplete
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\obj\Debug\netcoreapp2.0\BlogApp.DAL.dll
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.DAL\obj\Debug\netcoreapp2.0\BlogApp.DAL.pdb

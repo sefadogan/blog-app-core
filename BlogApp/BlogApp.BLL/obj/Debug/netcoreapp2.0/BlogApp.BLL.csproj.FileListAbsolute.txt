@@ -1,0 +1,16 @@
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\bin\Debug\netcoreapp2.0\BlogApp.BLL.deps.json
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\bin\Debug\netcoreapp2.0\BlogApp.BLL.dll
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\bin\Debug\netcoreapp2.0\BlogApp.BLL.pdb
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\bin\Debug\netcoreapp2.0\BlogApp.Core.dll
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\bin\Debug\netcoreapp2.0\BlogApp.DAL.dll
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\bin\Debug\netcoreapp2.0\BlogApp.Model.dll
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\bin\Debug\netcoreapp2.0\BlogApp.Core.pdb
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\bin\Debug\netcoreapp2.0\BlogApp.DAL.pdb
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\bin\Debug\netcoreapp2.0\BlogApp.Model.pdb
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\obj\Debug\netcoreapp2.0\BlogApp.BLL.csprojAssemblyReference.cache
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\obj\Debug\netcoreapp2.0\BlogApp.BLL.csproj.CoreCompileInputs.cache
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\obj\Debug\netcoreapp2.0\BlogApp.BLL.AssemblyInfoInputs.cache
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\obj\Debug\netcoreapp2.0\BlogApp.BLL.AssemblyInfo.cs
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\obj\Debug\netcoreapp2.0\BlogApp.BLL.csproj.CopyComplete
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\obj\Debug\netcoreapp2.0\BlogApp.BLL.dll
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.BLL\obj\Debug\netcoreapp2.0\BlogApp.BLL.pdb
