@@ -37,7 +37,7 @@ namespace BlogApp.UI.Areas.Admin.Controllers
             if (user == null)
             {
                 TempData["ProcessResult"] = "Email address or password is incorrect!";
-                TempData["AlertType"] = "warning";
+                TempData["AlertType"] = "danger";
                 return View();
             }
 

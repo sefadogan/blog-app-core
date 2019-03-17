@@ -8,5 +8,6 @@ namespace BlogApp.BLL.Abstract
 {
     public interface IUserRepository : IBaseRepository<User, int, BlogAppContext>
     {
+        bool Delete(int id);
     }
 }
