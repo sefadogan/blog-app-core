@@ -28,7 +28,6 @@ namespace BlogApp.BLL.Concrete
                 //addedData.State = EntityState.Added;
 
                 _context.Set<TEntity>().Add(entity);
-                _context.SaveChanges();
                 return true;
             }
             catch (Exception e)
