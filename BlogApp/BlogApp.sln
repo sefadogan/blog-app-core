@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogApp.UI", "BlogApp.UI\BlogApp.UI.csproj", "{0F165741-7EE5-40FA-B510-84879B1D18CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogApp.UI", "BlogApp.UI\BlogApp.UI.csproj", "{E65FF13C-6B8F-4249-9E56-ABC00D024DC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0F165741-7EE5-40FA-B510-84879B1D18CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F165741-7EE5-40FA-B510-84879B1D18CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F165741-7EE5-40FA-B510-84879B1D18CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F165741-7EE5-40FA-B510-84879B1D18CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E65FF13C-6B8F-4249-9E56-ABC00D024DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65FF13C-6B8F-4249-9E56-ABC00D024DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65FF13C-6B8F-4249-9E56-ABC00D024DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65FF13C-6B8F-4249-9E56-ABC00D024DC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E900100E-08A8-4949-8408-A93467E9988B}
+		SolutionGuid = {BA244AF3-6255-4415-98C4-B57F6E41794E}
 	EndGlobalSection
 EndGlobal
