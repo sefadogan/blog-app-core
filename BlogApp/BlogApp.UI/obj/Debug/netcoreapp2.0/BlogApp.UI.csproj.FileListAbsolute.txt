@@ -1,0 +1,11 @@
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.UI\bin\Debug\netcoreapp2.0\BlogApp.UI.deps.json
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.UI\bin\Debug\netcoreapp2.0\BlogApp.UI.runtimeconfig.json
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.UI\bin\Debug\netcoreapp2.0\BlogApp.UI.runtimeconfig.dev.json
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.UI\bin\Debug\netcoreapp2.0\BlogApp.UI.dll
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.UI\obj\Debug\netcoreapp2.0\BlogApp.UI.csprojAssemblyReference.cache
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.UI\obj\Debug\netcoreapp2.0\BlogApp.UI.csproj.CoreCompileInputs.cache
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.UI\obj\Debug\netcoreapp2.0\BlogApp.UI.AssemblyInfoInputs.cache
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.UI\obj\Debug\netcoreapp2.0\BlogApp.UI.AssemblyInfo.cs
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.UI\bin\Debug\netcoreapp2.0\BlogApp.UI.pdb
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.UI\obj\Debug\netcoreapp2.0\BlogApp.UI.dll
+D:\Projeler\GitHub\blog-app-core\BlogApp\BlogApp.UI\obj\Debug\netcoreapp2.0\BlogApp.UI.pdb
